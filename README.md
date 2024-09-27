@@ -49,8 +49,14 @@ This is a simple To-Do List application built using Django REST Framework. It su
 
 5. The API is now accessible at `http://127.0.0.1:8000/api/tasks/`.
 
+## User Interface Endpoints
+
+1. The API is now accessible at `http://127.0.0.1:8000/`.
+
+
 ## Technologies Used
 
+- JavaScript
 - Django
 - Django REST Framework
 - MySQL
