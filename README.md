@@ -12,13 +12,13 @@ This is a simple To-Do List application built using Django REST Framework. It su
 ## API Endpoints
 
 ### 1. List and Create To-Do
-- **Endpoint**: `/api/todos/`
+- **Endpoint**: `/api/tasks/`
 - **Methods**: 
   - `GET`: List all to-do items.
   - `POST`: Create a new to-do item.
   
 ### 2. Retrieve, Update, and Delete To-Do
-- **Endpoint**: `/api/todos/<id>/`
+- **Endpoint**: `/api/tasks/<id>/`
 - **Methods**: 
   - `GET`: Retrieve a specific to-do item by ID.
   - `PUT`: Update an existing to-do item by ID.
@@ -28,8 +28,8 @@ This is a simple To-Do List application built using Django REST Framework. It su
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your_username/your_repository.git
-    cd your_repository
+    git clone https://github.com/Shirodkar-Shubham-GitHub/django_restapi_todo
+    cd api_todo-list
     ```
 
 2. Install the required packages:
@@ -47,20 +47,13 @@ This is a simple To-Do List application built using Django REST Framework. It su
     python manage.py runserver
     ```
 
-5. The API is now accessible at `http://127.0.0.1:8000/api/todos/`.
-
-## Testing
-
-To run tests for the application, use:
-```sh
-python manage.py test
-```
+5. The API is now accessible at `http://127.0.0.1:8000/api/tasks/`.
 
 ## Technologies Used
 
 - Django
 - Django REST Framework
-- SQLite (default database)
+- MySQL
 
 ## License
 
@@ -68,5 +61,5 @@ This project is licensed under the MIT License.
 
 ## Author
 
-- Your Name (your_email@example.com)
-- [Your GitHub Profile](https://github.com/your_username)
+- Shubham Ashok Shirodkar (shubhamshirodkar90@gmail.com)
+- [My GitHub Profile](https://github.com/Shirodkar-Shubham-GitHub)
